@@ -1,0 +1,123 @@
+@media(max-width: 992px){
+    .menubar{
+        display: block;
+    }
+    .navbar .nav-item{
+        display: none;
+    }
+    .navbar{
+        justify-content: flex-end;
+    }
+    .lawn-services .column{
+        flex-basis: 230px;
+    }
+    .welcome-lawncare{
+        flex-direction: column;
+        text-align: center;
+        padding: 100px;
+    }
+    .welcome-lawncare img{
+        width: 80%;
+        height: 80%;
+    }
+    .welcome-lawncare .column1 i{
+        position: absolute;
+        right: 44%;
+        top: 48%;
+        padding: 15px 17px;
+    }
+    .seasonal-lawn-gallery > div{
+        padding: 25px;
+        flex-basis: 50%;
+    }
+    .blog-gallery .column {
+        flex-basis: 50%;
+        margin-bottom: 26px;
+    }
+}
+
+@media(max-width: 786px){
+    .lawn-services {
+        flex-direction: column;
+    }
+    .welcome-lawncare{
+        padding: 10px;
+    }
+    .blog-gallery .column {
+        flex-basis: 100%;
+        padding: 30px 60px;
+    }
+}
+
+@media(max-width: 600px){
+    .seasonal-lawn-gallery > div{
+        flex-basis: 100%;
+    }
+    .blog-gallery .column {
+       
+        padding: 30px 10px;
+    }
+    .footer2 .column {
+        flex: 100%;
+    }
+}
+
+
+@media(max-width: 480px){
+
+    .banner h1 {
+        font-size: 7vw;
+    }
+
+    .lawn-services{
+        padding: 10px;
+    }
+    .lawn-services .column{
+        padding: 10px;
+    }
+    .welcome-lawncare{
+        padding: 0px;
+    }
+    .welcome-lawncare .column2 .box{
+        margin: 10px;
+        box-shadow: -1px -1px 3px 2px lightgray;
+    }
+    .blog-gallery .column .image .box{
+        font-size: 4vw;
+        padding: 6px;
+    }
+    .blog-gallery .column span{
+        font-size: 10vw;
+    }
+    .footer1 .input-div input{
+        padding: 12px 25px;
+        padding-left: 5px;
+    }
+}
+
+@media(max-width: 320px){
+
+    .banner .text{
+        text-align: center;
+        left: 0;
+        padding: 10px;
+    }
+    .banner h1 {
+        font-size: 8.5vw;
+    }
+
+    .testimonal-div .column .photo-text{
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .testimonal-div .column {
+        padding: 25px;
+    }
+
+    .footer2{
+        overflow: hidden;
+    }
+    
+}
